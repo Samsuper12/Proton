@@ -1196,6 +1196,7 @@ def default_compat_config():
                 "1404090", #Trivia Tricks
                 "2052410", #WITCH ON THE HOLY NIGHT
                 "789910", #Planet of the Apes: Last Frontier
+                "1643320", #S.T.A.L.K.E.R 2 Heart of Chornobyl
                 ]:
             ret.add("heapdelayfree")
 
@@ -1203,6 +1204,7 @@ def default_compat_config():
                 "21980", #Call of Juarez: Bound in Blood
                 "553850", #Helldivers 2
                 "2055290", #Sonic Colors: Ultimate
+                "1643320", #S.T.A.L.K.E.R 2 Heart of Chornobyl
                 ]:
             ret.add("heapzeromemory")
 
@@ -1283,7 +1285,7 @@ def default_compat_config():
         if appid in [
                 "275850", #No Man's Sky
                 "2012840", #Portal with RTX
-                "1643320",
+                "1643320", #S.T.A.L.K.E.R 2 Heart of Chornobyl
                 ]:
             ret.add("nohardwarescheduling")
 
