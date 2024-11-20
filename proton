@@ -1283,6 +1283,7 @@ def default_compat_config():
         if appid in [
                 "275850", #No Man's Sky
                 "2012840", #Portal with RTX
+                "1643320",
                 ]:
             ret.add("nohardwarescheduling")
 
